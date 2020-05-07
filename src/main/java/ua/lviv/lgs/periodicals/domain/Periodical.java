@@ -24,10 +24,7 @@ public class Periodical {
 	
 	@Column
 	private Double price;
-	
-	@Lob
-	private byte[] image;
-	
+		
 	@Lob
 	private String encodedImage;
 
@@ -78,17 +75,6 @@ public class Periodical {
 	public void setPrice(Double price) {
 		this.price = price;
 	}
-	
-	
-
-	public byte[] getImage() {
-		return image;
-	}
-
-	public void setImage(byte[] image) {
-		this.image = image;
-	}
-	
 	
 
 	public String getEncodedImage() {
